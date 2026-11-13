@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="#050b07" name="theme-color"/>
+  <meta content="Shraddha Nayak &mdash; AI &amp; Data Science engineering student portfolio." name="description"/>
+  <title>
+   Contact | Shraddha Nayak
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body class="page-loading">
+  <div class="scroll-progress" id="scrollProgress">
+  </div>
+  <div class="ambient ambient-one">
+  </div>
+  <div class="ambient ambient-two">
+  </div>
+  <button aria-label="Open navigation" class="mobile-menu" id="mobileMenu">
+   ☰
+  </button>
+  <aside class="sidebar">
+   <div class="profile">
+    <div class="explorer-brand"><span class="window-dots"><i></i><i></i><i></i></span><span>~/portfolio</span></div>
+    <img alt="Shraddha Nayak" src="assets/profile.jpeg"/>
+    <h2>
+     Shraddha Nayak
+    </h2>
+    <p>
+     AI &amp; Data Science Student
+    </p>
+    <span class="availability">
+     <i>
+     </i>
+     Open to opportunities
+    </span>
+   </div>
+   <nav>
+    <a class="nav-link" href="index.html">
+     <span>
+      ⌂
+     </span>
+     Overview
+    </a>
+    <a class="nav-link" href="about.html">
+     <span>
+      ♡
+     </span>
+     About me
+    </a>
+    <a class="nav-link" href="skills.html">
+     <span>
+      ✳
+     </span>
+     Skills
+    </a>
+    <a class="nav-link" href="projects.html">
+     <span>
+      ▧
+     </span>
+     Projects
+    </a>
+    <a class="nav-link" href="experience.html">
+     <span>
+      ▤
+     </span>
+     Experience
+    </a>
+    <a class="nav-link" href="certificates.html">
+     <span>
+      ✧
+     </span>
+     Certificates
+    </a>
+    <a class="nav-link active" href="contact.html">
+     <span>
+      ✉
+     </span>
+     Contact
+    </a>
+   </nav>
+   <div class="sidebar-bottom">
+    <div class="socials">
+     <a href="https://github.com/Shraddha030118" rel="noopener" target="_blank">
+      GitHub &nearrow;
+     </a>
+    </div>
+    <small>
+     &copy;
+     <span id="year">
+     </span>
+     Shraddha
+    </small>
+   </div>
+  </aside>
+  <main class="content page-content">
+   <section class="section contact contact-page" id="contact">
+    <div class="section-kicker">LET'S CONNECT</div>
+    <h2>Have an idea? Let's <em>talk.</em></h2>
+    <p class="contact-intro">I'm always interested in learning, collaborating on meaningful projects and exploring internship opportunities. Choose a platform or send me a message.</p>
+    <div class="contact-grid">
+     <a class="contact-card" href="mailto:shraddhanayak159@gmail.com">
+      <span class="contact-icon">✉</span><span class="contact-label">EMAIL</span>
+      <strong>shraddhanayak159@gmail.com</strong><small>Send me an email ↗</small>
+     </a>
+     <a class="contact-card" href="https://www.linkedin.com/in/-shraddha-/" target="_blank" rel="noopener noreferrer">
+      <span class="contact-icon">in</span><span class="contact-label">LINKEDIN</span>
+      <strong>Connect professionally</strong><small>Visit my LinkedIn ↗</small>
+     </a>
+     <a class="contact-card" href="https://github.com/Shraddha030118" target="_blank" rel="noopener noreferrer">
+      <span class="contact-icon">⌘</span><span class="contact-label">GITHUB</span>
+      <strong>Explore my code</strong><small>Visit my GitHub ↗</small>
+     </a>
+    </div>
+    <div class="contact-cta">
+     <div><span class="section-kicker">HAVE SOMETHING IN MIND?</span><h3>Let's build something <em>meaningful.</em></h3></div>
+     <button class="btn primary" id="openMessageDialog" type="button">Send me a message <span>↗</span></button>
+    </div>
+   </section>
+   <footer>Made with care <span>✿</span> · Shraddha Nayak</footer>
+  </main>
+  <dialog class="message-dialog" id="messageDialog" aria-labelledby="messageDialogTitle">
+   <form class="message-form" id="messageForm"
+        action="https://formsubmit.co/shraddhanayak159@gmail.com"
+        method="POST">
+    <input type="hidden" name="_subject" value="New message from Shraddha's portfolio">
+    <input type="hidden" name="_template" value="table">
+    <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+    <button class="dialog-close" id="closeMessageDialog" type="button" aria-label="Close dialog">×</button>
+    <div class="section-kicker">NEW MESSAGE</div>
+    <h2 id="messageDialogTitle">Send a <em>message.</em></h2>
+    <p>Fill in the details and send your message directly from this page.</p>
+    <label for="senderName">Your name</label><input id="senderName" name="name" type="text" placeholder="Enter your name" required maxlength="80">
+    <label for="senderEmail">Your email</label><input id="senderEmail" name="email" type="email" placeholder="you@example.com" required maxlength="120">
+    <label for="senderSubject">Subject</label><input id="senderSubject" name="subject" type="text" placeholder="What would you like to discuss?" required maxlength="120">
+    <label for="senderMessage">Message</label><textarea id="senderMessage" name="message" rows="5" placeholder="Write your message here..." required maxlength="3000"></textarea>
+    <button class="btn primary dialog-submit" id="sendMessageButton" type="submit">Send message ↗</button>
+    <div class="form-note" id="messageFormNote" aria-live="polite">Your message will be sent to Shraddha's inbox. First-time FormSubmit activation is required. Please do not include sensitive information.</div>
+   </form>
+  </dialog>
+  <details class="terminal-widget" id="siteTerminal">
+   <summary>
+    ⌘ INTERACTIVE TERMINAL
+    <span>
+     type a command
+    </span>
+   </summary>
+   <div class="terminal-body">
+    <div aria-live="polite" class="terminal-output" id="terminalOutput">
+     <div>
+      Welcome, visitor. Portfolio shell initialized.
+     </div>
+     <div class="success">
+      Type
+      <b>
+       help
+      </b>
+      to see available commands.
+     </div>
+    </div>
+    <form class="terminal-form" id="terminalForm">
+     <label for="terminalInput">
+      visitor@shraddha:~$
+     </label>
+     <input aria-label="Enter a portfolio navigation command" autocomplete="off" id="terminalInput" placeholder="try: about" spellcheck="false"/>
+    </form>
+    <p class="terminal-hint">
+     Try
+     <code>
+      about
+     </code>
+     ,
+     <code>
+      skills
+     </code>
+     ,
+     <code>
+      projects
+     </code>
+     ,
+     <code>
+      certificates
+     </code>
+     ,
+     <code>
+      contact
+     </code>
+     , <code>whoami</code>, <code>stack</code>, <code>date</code>, <code>email</code> or
+     <code>help</code>
+     .
+    </p>
+   </div>
+  </details>
+  <script src="script.js">
+  </script>
+ </body>
+</html>
+

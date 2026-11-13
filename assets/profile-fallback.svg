@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="crtBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08150a" />
+      <stop offset="100%" stop-color="#030804" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" rx="8" fill="url(#crtBg)" stroke="#00ff41" stroke-width="2" />
+  
+  <!-- Subtle CRT Grid -->
+  <g stroke="#1b4520" stroke-width="1" opacity="0.4">
+    <line x1="150" y1="0" x2="150" y2="600" />
+    <line x1="300" y1="0" x2="300" y2="600" />
+    <line x1="450" y1="0" x2="450" y2="600" />
+    <line x1="0" y1="150" x2="600" y2="150" />
+    <line x1="0" y1="300" x2="600" y2="300" />
+    <line x1="0" y1="450" x2="600" y2="450" />
+  </g>
+
+  <!-- Glowing Phosphor Rings -->
+  <circle cx="300" cy="260" r="170" stroke="#00ff41" stroke-width="1.5" stroke-dasharray="6,8" fill="none" opacity="0.4" />
+  <circle cx="300" cy="260" r="140" stroke="#39ff14" stroke-width="1" stroke-dasharray="4,6" fill="none" opacity="0.6" />
+  <circle cx="300" cy="260" r="115" fill="#00ff41" opacity="0.1" />
+
+  <!-- Avatar Silhouette -->
+  <circle cx="300" cy="235" r="70" fill="#00ff41" />
+  <ellipse cx="300" cy="385" rx="120" ry="70" fill="#00ff41" opacity="0.9" />
+
+  <!-- Initials SN -->
+  <text x="300" y="254" font-family="'Fira Code', monospace" font-size="52" font-weight="bold" fill="#030804" text-anchor="middle" letter-spacing="2">SN</text>
+
+  <!-- Bottom Badge -->
+  <g transform="translate(130, 485)">
+    <rect x="0" y="0" width="340" height="48" rx="4" fill="#050d06" stroke="#00ff41" stroke-width="1.5" />
+    <circle cx="26" cy="24" r="5" fill="#39ff14" />
+    <text x="44" y="30" font-family="'Fira Code', monospace" font-size="14" font-weight="bold" fill="#00ff41">SHRADDHA NAYAK // AI &amp; DS</text>
+  </g>
+</svg>
