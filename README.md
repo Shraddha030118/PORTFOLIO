@@ -57,8 +57,8 @@ PORTFOLIO/
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/Shraddha030118/portfolio.git
-   cd portfolio
+   git clone https://github.com/Shraddha030118/PORTFOLIO.git
+   cd PORTFOLIO
    ```
 2. Open `index.html` in any modern web browser, or launch using VS Code's **Live Server** extension.
 
@@ -67,7 +67,7 @@ PORTFOLIO/
 ## 🏆 Unstop & ONEWHO Competition Submission
 
 - **Submission Link**: `https://<yourname>.isonewho.codes/a/unstop`
-- **Source Code**: [https://github.com/Shraddha030118/portfolio](https://github.com/Shraddha030118/portfolio)
+- **Source Code**: [https://github.com/Shraddha030118/PORTFOLIO](https://github.com/Shraddha030118/PORTFOLIO)
 
 ---
 
@@ -76,3 +76,4 @@ PORTFOLIO/
 - **Email**: [shraddhanayak159@gmail.com](mailto:shraddhanayak159@gmail.com)
 - **LinkedIn**: [linkedin.com/in/-shraddha-](https://www.linkedin.com/in/-shraddha-/)
 - **GitHub**: [github.com/Shraddha030118](https://github.com/Shraddha030118)
+
